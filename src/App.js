@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Post from './component/Post';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
         className="app__headerImage" 
         />
       </div>
-
       
+    <Post />
+
     </div>
   );
 }
